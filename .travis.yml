@@ -4,7 +4,7 @@ python:
   - "3.3"
   - "2.7"
 install:
-  - pip install --install-option="--no-cython-compile" https://github.com/cython/cython/archive/9b3dd8ec9d0b699438bb5f179d4812fbbbae73ed.zip
+  - pip install --install-option="--no-cython-compile" https://github.com/cython/cython/archive/60c424d9c2515cceb62164545ba6daeebd46fcb3.zip
   - pip install -r dev_requirements.txt
   - python setup.py develop
 script:
